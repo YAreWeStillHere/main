@@ -13,3 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const applyVisitButton = document.getElementById("apply-visit");
+    
+    applyVisitButton.addEventListener("click", function () {
+        window.location.href = "pieteiktapmeklejumu.html";
+    });
+});
