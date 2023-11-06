@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     background-color: rgb(217, 144, 17);
 }
 
@@ -25,7 +25,8 @@ main {
 }
 
 #form-container {
-   
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 24px;
     padding: 20px;
     width: 300px;
     margin: 0 auto;
@@ -37,13 +38,31 @@ main {
 
 .black-text {
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
 }
 
 #submit-button {
     background-color: #008000;
     color: white;
     padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#button-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.action-button {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(237, 202, 23);
+    color: black;
     border: none;
     cursor: pointer;
     border-radius: 5px;
